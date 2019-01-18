@@ -74,7 +74,6 @@ C:\Users\VARUNMAGGO\source\repos\HeartBeatTracker\HeartBeatTracker\bin\System.We
 C:\Users\VARUNMAGGO\source\repos\HeartBeatTracker\HeartBeatTracker\bin\System.Diagnostics.DiagnosticSource.xml
 C:\Users\VARUNMAGGO\source\repos\HeartBeatTracker\HeartBeatTracker\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\Users\VARUNMAGGO\source\repos\HeartBeatTracker\HeartBeatTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\VARUNMAGGO\source\repos\HeartBeatTracker\HeartBeatTracker\obj\Debug\HeartBeatTracker.csprojAssemblyReference.cache
 C:\Users\VARUNMAGGO\source\repos\HeartBeatTracker\HeartBeatTracker\obj\Debug\HeartBeatTracker.csproj.CoreCompileInputs.cache
 C:\Users\VARUNMAGGO\source\repos\HeartBeatTracker\HeartBeatTracker\obj\Debug\HeartBeatTracker.csproj.CopyComplete
 C:\Users\VARUNMAGGO\source\repos\HeartBeatTracker\HeartBeatTracker\obj\Debug\HeartBeatTracker.dll

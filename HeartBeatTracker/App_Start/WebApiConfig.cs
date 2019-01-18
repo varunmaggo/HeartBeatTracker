@@ -12,7 +12,6 @@ namespace HeartBeatTracker
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
-            // Enable CORS for the Angular App
             var cors = new EnableCorsAttribute("http://localhost:4200", "*", "*");
             config.EnableCors(cors);
 
@@ -25,14 +24,11 @@ namespace HeartBeatTracker
                 defaults: new { id = RouteParameter.Optional }
             );
 
-
             // Set JSON formatter as default one and remove XmlFormatter
-
             var jsonFormatter = config.Formatters.JsonFormatter;
             jsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
             config.Formatters.Remove(config.Formatters.XmlFormatter);
             jsonFormatter.SerializerSettings.DateTimeZoneHandling = Newtonsoft.Json.DateTimeZoneHandling.Utc;
-
         }
     }
 }

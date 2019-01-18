@@ -6,7 +6,7 @@ import HeartRate from '../models/HeartRate';
 @Injectable()
 export default class HeartRateService {
   public API = 'http://localhost:8080/api';
-  public SUGARLEVELS_API = `${this.API}/sugarlevels`;
+  public SUGARLEVELS_API = `${this.API}/HeartRates`;
 
   constructor(private http: HttpClient) { }
 
